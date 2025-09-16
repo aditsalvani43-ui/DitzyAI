@@ -1,6 +1,5 @@
 // pages/index.js
 import { useState } from "react";
-import "../public/style.css";
 
 export default function Home() {
   const [message, setMessage] = useState("");
@@ -32,4 +31,4 @@ export default function Home() {
       <div className="response">{response}</div>
     </div>
   );
-    }
+            }
